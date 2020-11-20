@@ -1,5 +1,6 @@
 # ml-agents-visual-observations-docker
-A minimal docker container for running ML-Agents with visual observations
+A minimal docker container for running ML-Agents with visual observations on a headless server.
+This package uses a virtual display buffer (`xvfb`) which will not use any hardware accelleration! This method may be too slow for some usecases.
 
 [ML-Agents](https://github.com/Unity-Technologies/ml-agents) is a toolkit for Unity that uses Unity's powerful game engine to train virtual agents. The installation and setup is very easy on Windows, but I found that managing to run it on Linux, on a Docker container, was challenging. 
 
